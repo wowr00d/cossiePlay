@@ -1,0 +1,258 @@
+<html>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Bitter:400,700' rel='stylesheet' type='text/css'>
+<style>
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+    body,html {
+        margin: 0px;
+        padding: 0px;
+    }
+    button {
+        background-color: inherit;
+    }
+    h1, h2, h3, h4, h5 {
+        margin: inherit;
+        padding: inherit;
+    }
+    #wrapper1 {
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("images/fair.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    #navbar {
+        width: 1024px;
+        height: 100px;
+        margin-left:auto;
+        margin-right: auto;
+        background-color: red;
+    }
+    #wrapper1-inner {
+        width: 1024px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 200px;
+        margin-top: 20vh;
+        text-align: center;
+    }
+    #wrapper1-inner h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+    }
+    #wrapper1-inner h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        margin: 0px;
+        padding: 0px;
+        color: white;
+    }
+    #wrapper1-inner button {
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 50px;
+        width: 125px;
+        height: 40px;
+        font-size: 18px;
+        color: white;
+        background-color: none;
+        border: 2px solid white;
+        transition: 0.3s;
+    }
+    #wrapper1-inner button:hover {
+        background-color: white;
+        color: black;
+        border-radius: 30px;
+        transition: 0.3s;
+    }
+    #desc-wrapper {
+        width: 100%;
+        height: 350px;
+        background-color: blue;
+    }
+    #desc-inner {
+        width: 1024px;
+        height: 320px;
+        background-color: red;
+        margin-left: auto;
+        padding: 15px;
+        margin-right: auto;
+    }
+    #desc-img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        background-color: orange;
+        display: inline-block;
+    }
+    #desc-info {
+        width: 700px;
+        background-color: green;
+        height: 320px;
+        float:right;
+        display: inline-block;
+    }
+    #gallery-wrapper {
+        width: 100%;
+        background-color: bisque;
+        height: 350px;
+    }
+    #gallery-desc {
+        width: 1024px;
+        text-align: center;
+        height: 200px;
+        position: relative;
+        top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+        font-size: 45px;
+    }
+    #gallery-desc h4 {
+        position: relative;
+        top: -275px;
+    }
+    #image-box1 {
+        width: 33.33%;
+        height: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/alice.jpg");
+        background-size: cover;
+        float:left;
+    }
+    #image-box2 {
+        width: 33.33%;
+        height: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/olaf.jpg");
+        background-size: cover;
+        background-position: center;
+        float:left;
+    }
+    #image-box3 {
+        width: 33.33%;
+        height: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("images/winter.jpg");
+        background-size: cover;
+        background-position:center;
+        float:left;
+    }
+    #footer {
+        width: 100%;
+        height: 150px;
+        padding-top: 30px;
+        background-color: #0d0d0d;
+    }
+    #footer-inner {
+        width: 1024px;
+        height: 140px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #footer-links {
+        width: 33.33%;
+        height: 120px;
+        font-family: 'Open Sans', sans-serif;
+        color: #cccccc;
+        font-size: 14px;
+        float: left;
+    }
+    #footer-links h5{
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    #footer-social {
+        width: 33.33%;
+        float: left;
+        height: 120px;
+    }
+    #footer-contact {
+        width: 33.33%;
+        height: 120px;
+        font-family: 'Open Sans', sans-serif;
+        color: #cccccc;
+        font-size: 14px;
+        float: left;
+    }
+    #footer-contact h5{
+        font-size: 17px;
+        text-decoration: underline;
+    }
+    #footer-contact a{
+        text-decoration: underline;
+    }
+    #footer-copyright {
+        width: 100%;
+        height: 20px;
+        float: left;
+        color: #999999;
+        font-size: 13px;
+        text-align: center;
+        font-family: 'Opens Sans', sans-serif;
+    }
+</style>
+<body>
+    <div id="wrapper1">
+        <div id="navbar">
+        
+        </div>
+        
+        <div id="wrapper1-inner">
+        <h1>Call to action text goes here.</h1>
+        <h2>Subtext for the call to action goes here.</h2>
+        <button>Get a qoute</button>
+        </div>
+    </div>
+    
+    <div id="desc-wrapper">
+        <div id="desc-inner">
+            <div id="desc-img"></div>
+            <div id="desc-info"></div>        
+        </div>
+    </div>
+    
+    <div id="gallery-wrapper">
+        <div id="image-box1"></div>
+        <div id="image-box2"></div>
+        <div id="image-box3"></div>
+        <div id="gallery-desc"><h4>Passionate about real nice memes.<h4></div>
+    </div>
+            
+    <div id="footer">
+        <div id="footer-inner">
+            <div id="footer-links">
+                <h5>Quick Links</h5>
+                <a href="#">Home</a><br>
+                <a href="#">Buy/Quote</a><br>
+                <a href="#">About</a><br>
+                <a href="#">Announcements</a><br>
+                <a href="#">Sign up for events</a>
+            </div>
+            
+            <div id="footer-social">
+                
+            </div>
+            
+            <div id="footer-contact">
+                <h5>Contact Us</h5>
+                <span>Ph: 0476369428</span><br>
+                <span>Fax: 47 481 863</span><br>
+                <span>Email: <a href="mailto:hello@cossieplay.com">hello@cossieplay.com</a></span>
+            </div>
+            
+            <div id="footer-copyright">
+                <span>Copyright CossiePlay - 2016. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
